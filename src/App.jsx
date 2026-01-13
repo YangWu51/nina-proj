@@ -80,7 +80,7 @@ function App() {
               <div className="accordion-body">
                 <ul>
                   <li>
-                    Full-stack developer with <strong>10+ years</strong> of experience building
+                    Full-stack developer with <strong>8+ years</strong> of experience building
                     enterprise web applications and SaaS platforms in healthcare, construction,
                     and low-code automation domains.
                   </li>
@@ -347,103 +347,12 @@ function App() {
                   </li>
                 </ul>
 
-                <h3>Full-stack Developer Intern – Mingdao Cloud</h3>
-                <p>Shanghai, China | Jul 2015 – May 2017</p>
-
-                <p>
-                  A low-code workflow automation platform helping business users to configure
-                  workflow processes and form-based systems without extensive coding.
-                </p>
-
-                <ul>
-                  <li>
-                    Maintained and updated existing <strong>AngularJS</strong> pages for workflow
-                    configuration and form setup, fixing UI bugs and making small feature
-                    adjustments.
-                  </li>
-                  <li>
-                    Implemented basic form fields, validation rules, and approval step
-                    configuration using <strong>JavaScript</strong>, following existing workflow
-                    logic.
-                  </li>
-                  <li>
-                    Maintained and updated existing <strong>AngularJS</strong> pages, fixing bugs,
-                    making small feature changes, and built new features in <strong>React</strong>
-                    to improve code reusability, efficiency, and long-term maintainability.
-                  </li>
-                  <li>
-                    Assisted in integrating front-end pages with <strong>RESTful APIs</strong> to
-                    load and save workflow and form configuration data.
-                  </li>
-                  <li>
-                    Supported senior engineers with testing, debugging, and verifying UI
-                    behavior to ensure changes matched business requirements.
-                  </li>
-                </ul>
-
 
               </div>
             )}
           </section>
 
-          {/* ===== projectt===== */}
           
-
-<section className="accordion">
-            <div
-              className={`accordion-header ${open.project ? "open" : ""}`}
-              onClick={() => toggle("project")}
-            >
-              <span>Personal Practice Website</span>
-              <span className="arrow">{open.project ? "▲" : "▼"}</span>
-            </div>
-
-            {open.project && (
-              <div className="accordion-body">
-                <div class="section-content">
-    <p>
-      <strong>Food Ordering Website:</strong>
-      <a href="http://yangpizzas.com" target="_blank">
-        http://yangpizzas.com
-      </a>
-    </p>
-
-    <ul>
-  <li>
-    Built a complete food ordering system using the <strong>MERN stack</strong>,
-    with a <strong>React</strong>-based front end and a <strong>Node.js / Express</strong> backend
-    handling core business logic.
-  </li>
-
-  <li>
-    Managed global application state with <strong>Redux</strong> and implemented
-    a responsive UI using <strong>HTML</strong> and <strong>CSS</strong> to ensure
-    smooth usage across desktop and mobile devices.
-  </li>
-
-  <li>
-    Developed <strong>RESTful APIs</strong> secured by <strong>JWT-based</strong>
-    role-based access control, supporting separate permission flows for users
-    and administrators.
-  </li>
-
-  <li>
-    Integrated <strong>Stripe</strong> to support secure online payments and
-    end-to-end checkout workflows from cart to order completion.
-  </li>
-
-  <li>
-    Deployed the application on <strong>AWS EC2</strong>, configured
-    <strong>Route 53</strong>, and connected a custom domain for production use.
-  </li>
-</ul>
-
-  </div>
-
-
-              </div>
-            )}
-          </section>
 
           {/* ===== Education ===== */}
           <section className="accordion">
